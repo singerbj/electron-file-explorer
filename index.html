@@ -3,16 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <style>
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <h3>Files</h3>
-    <ul class="items">
-    </ul>
-
-
+    <div class="currentDir"></div>
+    <div class="items">
+    </div>
   </body>
-
-<script>window.$ = window.jQuery = require('./jquery.min.js');</script>
+  <script>window.$ = window.jQuery = require('./jquery.min.js');</script>
   <script>
     // You can also require other files to run in this process
     require('./renderer.js')
